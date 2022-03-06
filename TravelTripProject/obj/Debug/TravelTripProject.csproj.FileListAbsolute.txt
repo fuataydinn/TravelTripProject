@@ -77,3 +77,7 @@ C:\Users\faydn\source\repos\TravelTripProject\TravelTripProject\obj\Debug\Travel
 C:\Users\faydn\source\repos\TravelTripProject\TravelTripProject\obj\Debug\TravelTripProject.csproj.CopyComplete
 C:\Users\faydn\source\repos\TravelTripProject\TravelTripProject\obj\Debug\TravelTripProject.dll
 C:\Users\faydn\source\repos\TravelTripProject\TravelTripProject\obj\Debug\TravelTripProject.pdb
+C:\Users\faydn\source\repos\TravelTripProject\TravelTripProject\bin\EntityFramework.dll
+C:\Users\faydn\source\repos\TravelTripProject\TravelTripProject\bin\EntityFramework.SqlServer.dll
+C:\Users\faydn\source\repos\TravelTripProject\TravelTripProject\bin\EntityFramework.xml
+C:\Users\faydn\source\repos\TravelTripProject\TravelTripProject\bin\EntityFramework.SqlServer.xml
