@@ -10,16 +10,20 @@ namespace TravelTripProject.Controllers
     public class BlogController : Controller
     {
         // GET: Blog
-        Context c = new Context();
+        Context context = new Context();
         public ActionResult Index()
         {
-            var bloglar = c.Blogs.ToList();
+            var bloglar = context.Blogs.ToList();
             return View(bloglar);
         }
+
+        BlogYorum by = new BlogYorum();
         public ActionResult BlogDetay(int id)
         {
-            var blogBul = c.Blogs.Where(x => x.ID == id).ToList();
-            return View(blogBul);
+          // var blogBul = context.Blogs.Where(x => x.ID == id).ToList();
+
+            by.Blogs = context.Blogs.Where(x => x.ID == id).ToList();
+            return View(by);
         }
     }
 }
