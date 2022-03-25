@@ -72,7 +72,6 @@ C:\Users\faydn\source\repos\TravelTripProject\TravelTripProject\bin\System.Web.W
 C:\Users\faydn\source\repos\TravelTripProject\TravelTripProject\bin\Newtonsoft.Json.xml
 C:\Users\faydn\source\repos\TravelTripProject\TravelTripProject\bin\Antlr3.Runtime.pdb
 C:\Users\faydn\source\repos\TravelTripProject\TravelTripProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\faydn\source\repos\TravelTripProject\TravelTripProject\obj\Debug\TravelTripProject.csproj.AssemblyReference.cache
 C:\Users\faydn\source\repos\TravelTripProject\TravelTripProject\obj\Debug\TravelTripProject.csproj.CoreCompileInputs.cache
 C:\Users\faydn\source\repos\TravelTripProject\TravelTripProject\obj\Debug\TravelTripProject.csproj.CopyComplete
 C:\Users\faydn\source\repos\TravelTripProject\TravelTripProject\obj\Debug\TravelTripProject.dll
@@ -81,3 +80,4 @@ C:\Users\faydn\source\repos\TravelTripProject\TravelTripProject\bin\EntityFramew
 C:\Users\faydn\source\repos\TravelTripProject\TravelTripProject\bin\EntityFramework.SqlServer.dll
 C:\Users\faydn\source\repos\TravelTripProject\TravelTripProject\bin\EntityFramework.xml
 C:\Users\faydn\source\repos\TravelTripProject\TravelTripProject\bin\EntityFramework.SqlServer.xml
+C:\Users\faydn\source\repos\TravelTripProject\TravelTripProject\obj\Debug\TravelTripProject.csproj.AssemblyReference.cache

@@ -3,20 +3,32 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using TravelTripProject.Models.Siniflar;
 
 namespace TravelTripProject.Controllers
 {
     public class DefaultController : Controller
     {
         // GET: Default
+
+        Context context = new Context();
         public ActionResult Index()
         {
-            return View();
+            var degerler = context.Blogs.ToList();
+            return View(degerler);
         }
 
         public ActionResult About()
         {
             return View();
         }
+
+        public PartialViewResult Partial1()
+        {
+            var degerler = context.Blogs.OrderByDescending(x=>x.ID).Take(3).ToList();
+            return PartialView(degerler);
+        }
+
+        
     }
 }

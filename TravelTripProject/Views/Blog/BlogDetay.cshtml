@@ -39,38 +39,31 @@ License URL: http://creativecommons.org/licenses/by/3.0/
         <div class="container">
             <div class="col-md-8 single-main">
                 <div class="single-grid">
-                    @foreach (var x in Model.Blogs)
+                    @foreach (var x in Model.Deger1)
                     {
-                        <img src="@x.BlogImage" alt="" style="margin-bottom:20px"/>
+                        <img src="@x.BlogImage" alt="" style="margin-bottom:20px" />
                         <h2> @x.Baslik</h2>
                         <p>
-                           @x.Aciklama
+                            @x.Aciklama
                         </p>
                     }
 
                 </div>
-                <ul class="comment-list">
 
-                    <li>
-                        <img src="~/web2/images/avatar.png" class="img-responsive" alt="">
-                        <div class="desc">
-                            <p>Fuat Aydın : Yorum yazacak...</p>
-                        </div>
-                        <div class="clearfix"></div>
-                    </li>
+                @foreach (var y in Model.Deger2)
+                {
+                    <ul class="comment-list">
 
-                </ul>
-                <ul class="comment-list">
+                        <li>
+                            <img src="~/web2/images/avatar.png" class="img-responsive" alt="">
+                            <div class="desc">
+                                <p>@y.KullaniciAdi: @y.Yorum</p>
+                            </div>
+                            <div class="clearfix"></div>
+                        </li>
 
-                    <li>
-                        <img src="~/web2/images/avatar.png" class="img-responsive" alt="">
-                        <div class="desc">
-                            <p>Fuat Aydın : Yorum yazacak...</p>
-                        </div>
-                        <div class="clearfix"></div>
-                    </li>
-
-                </ul>
+                    </ul>
+                }
                 <div class="content-form">
                     <h3>Bir Yorum Yapın</h3>
                     <form>
